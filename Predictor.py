@@ -8,7 +8,7 @@ import pickle
 from io import BytesIO
 
 
-model_url = 'https//github.com/anilaustin/Machine-Learning/master/model_pickle2'
+model_url = 'https//github.com/anilaustin/Machine-Learning/model_pickle2'
 response = requests.get(model_url, stream=True)
 response.raise_for_status()
 
